@@ -1,0 +1,9 @@
+.User {
+    /* color:green;
+    border: 2px red solid; */
+    width: 40vw;
+    border: 2px #333 solid;
+    margin: 10px auto;
+    padding: 10px 0;
+
+}
