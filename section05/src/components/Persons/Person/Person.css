@@ -4,10 +4,10 @@
     margin: 10px auto;
     border: 1px solid #eee;
     box-shadow: 0 2px 3px #ccc;
-    transform: scale(.98) ;
+    transform: scale(.98);
     text-align: center;;
     transform-origin: top left;
-    padding:10px 0;
+    padding: 10px 0;
     transition: all .2s ease .1s;
 }
 
@@ -17,3 +17,9 @@
     transform: scale(1) translateX(8px);
     cursor: pointer;
 }
+
+@media (mix-width: 500px) {
+    .Person {
+      width: 450px;
+    }
+  }
